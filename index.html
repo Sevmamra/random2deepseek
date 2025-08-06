@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus Dynamics | Premium Digital Solutions</title>
+  <meta name="description" content="Nexus Dynamics delivers cutting-edge digital solutions with premium design, development, and marketing services for global brands.">
+  
+  <!-- Font Preloading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="preload">
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#7B0091" d="M45,-59.2C58.3,-49.9,69,-36.5,74.1,-21.3C79.2,-6.1,78.7,10.9,71.8,25.1C64.9,39.3,51.7,50.7,36.4,60.2C21.1,69.7,3.7,77.3,-12.8,74.8C-29.3,72.3,-44.8,59.7,-56.2,44.3C-67.6,28.9,-74.8,10.7,-72.9,-6.8C-71,-24.3,-60,-40.9,-45.1,-50.3C-30.3,-59.7,-11.6,-61.9,4.8,-67.6C21.2,-73.3,42.4,-82.5,45,-59.2Z" transform="translate(100 100)"/>
+        </svg>
+      </div>
+      <div class="preloader-progress">
+        <div class="progress-bar"></div>
+      </div>
+      <div class="preloader-counter">0%</div>
+    </div>
+  </div>
+
+  <!-- Cursor Effects -->
+  <div class="cursor cursor-default"></div>
+  <div class="cursor cursor-follower"></div>
+
+  <!-- Background Particles -->
+  <div id="particles-js"></div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo" data-aos="fade-down" data-aos-delay="100">
+          <a href="#home">
+            <span class="logo-text">Nexus</span>
+            <span class="logo-dot"></span>
+            <span class="logo-text">Dynamics</span>
+          </a>
+        </div>
+        
+        <nav class="main-nav" data-aos="fade-down" data-aos-delay="200">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#work" class="nav-link">Work</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#testimonials" class="nav-link">Clients</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <div class="header-cta" data-aos="fade-down" data-aos-delay="300">
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+        
+        <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <div class="mobile-menu-inner">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#work" class="mobile-nav-link">Work</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#testimonials" class="mobile-nav-link">Clients</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      
+      <div class="mobile-menu-footer">
+        <div class="social-links">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-slideshow">
+      <div class="slide active" style="background-image: url('assets/hero-1.jpg')"></div>
+      <div class="slide" style="background-image: url('assets/hero-2.jpg')"></div>
+      <div class="slide" style="background-image: url('assets/hero-3.jpg')"></div>
+    </div>
+    
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-text">
+          <h1 class="hero-title" data-aos="fade-up" data-aos-delay="300">
+            <span class="title-line">Elevate Your</span>
+            <span class="title-line">Digital Presence</span>
+          </h1>
+          <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">
+            Premium digital solutions for visionary brands
+          </p>
+          <div class="hero-cta" data-aos="fade-up" data-aos-delay="500">
+            <a href="#services" class="btn btn-primary btn-lg">Explore Services</a>
+            <a href="#work" class="btn btn-outline btn-lg">View Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- Clients Marquee -->
+  <section class="clients-marquee">
+    <div class="marquee-track">
+      <div class="marquee-item">
+        <img src="assets/client-1.png" alt="Client Logo" loading="lazy">
+      </div>
+      <div class="marquee-item">
+        <img src="assets/client-2.png" alt="Client Logo" loading="lazy">
+      </div>
+      <div class="marquee-item">
+        <img src="assets/client-3.png" alt="Client Logo" loading="lazy">
+      </div>
+      <div class="marquee-item">
+        <img src="assets/client-4.png" alt="Client Logo" loading="lazy">
+      </div>
+      <div class="marquee-item">
+        <img src="assets/client-5.png" alt="Client Logo" loading="lazy">
+      </div>
+      <div class="marquee-item">
+        <img src="assets/client-6.png" alt="Client Logo" loading="lazy">
+      </div>
+      <div class="marquee-item">
+        <img src="assets/client-7.png" alt="Client Logo" loading="lazy">
+      </div>
+      <div class="marquee-item">
+        <img src="assets/client-8.png" alt="Client Logo" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Our Premium Services</h2>
+        <p class="section-subtitle">Comprehensive solutions tailored to your needs</p>
+      </div>
+      
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Web Development</h3>
+          <p class="service-description">
+            Cutting-edge websites with premium performance and seamless user experiences.
+          </p>
+          <div class="service-features">
+            <ul>
+              <li>Custom CMS Solutions</li>
+              <li>E-Commerce Platforms</li>
+              <li>Progressive Web Apps</li>
+              <li>API Integrations</li>
+            </ul>
+          </div>
+          <a href="#" class="service-link">Learn More</a>
+        </div>
+        
+        <!-- Service 2 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M18.5,12A3.5,3.5 0 0,0 22,8.5A6.5,6.5 0 0,0 15.5,2A3.5,3.5 0 0,0 12,5.5A3.5,3.5 0 0,0 8.5,2A6.5,6.5 0 0,0 2,8.5A3.5,3.5 0 0,0 5.5,12A3.5,3.5 0 0,0 2,15.5A6.5,6.5 0 0,0 8.5,22A3.5,3.5 0 0,0 12,18.5A3.5,3.5 0 0,0 15.5,22A6.5,6.5 0 0,0 22,15.5A3.5,3.5 0 0,0 18.5,12M12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16Z"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Brand Identity</h3>
+          <p class="service-description">
+            Comprehensive branding that tells your unique story and captivates your audience.
+          </p>
+          <div class="service-features">
+            <ul>
+              <li>Logo Design</li>
+              <li>Brand Guidelines</li>
+              <li>Visual Identity</li>
+              <li>Brand Strategy</li>
+            </ul>
+          </div>
+          <a href="#" class="service-link">Learn More</a>
+        </div>
+        
+        <!-- Service 3 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L6.04,7.5L12,10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V9.21L13,12.58V19.29L19,15.91Z"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Digital Marketing</h3>
+          <p class="service-description">
+            Data-driven strategies to amplify your reach and maximize conversions.
+          </p>
+          <div class="service-features">
+            <ul>
+              <li>SEO Optimization</li>
+              <li>PPC Campaigns</li>
+              <li>Social Media</li>
+              <li>Content Marketing</li>
+            </ul>
+          </div>
+          <a href="#" class="service-link">Learn More</a>
+        </div>
+        
+        <!-- Service 4 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M4,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4M4,6V18H20V6H4M8,8H16V10H8V8M8,11H16V13H8V11M8,14H16V16H8V14Z"/>
+            </svg>
+          </div>
+          <h3 class="service-title">UI/UX Design</h3>
+          <p class="service-description">
+            Intuitive interfaces that delight users and drive engagement.
+          </p>
+          <div class="service-features">
+            <ul>
+              <li>User Research</li>
+              <li>Wireframing</li>
+              <li>Prototyping</li>
+              <li>Usability Testing</li>
+            </ul>
+          </div>
+          <a href="#" class="service-link">Learn More</a>
+        </div>
+        
+        <!-- Service 5 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M17,10.5L21,6.5V17.5L17,13.5V17A1,1 0 0,1 16,18H4A1,1 0 0,1 3,17V7A1,1 0 0,1 4,6H16A1,1 0 0,1 17,7V10.5M14,16V15C14,13.67 11.33,13 10,13C8.67,13 6,13.67 6,15V16H14M10,8A2,2 0 0,0 8,10A2,2 0 0,0 10,12A2,2 0 0,0 12,10A2,2 0 0,0 10,8Z"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Video Production</h3>
+          <p class="service-description">
+            Cinematic storytelling that captivates and converts your audience.
+          </p>
+          <div class="service-features">
+            <ul>
+              <li>Concept Development</li>
+              <li>4K Production</li>
+              <li>Motion Graphics</li>
+              <li>Post-Production</li>
+            </ul>
+          </div>
+          <a href="#" class="service-link">Learn More</a>
+        </div>
+        
+        <!-- Service 6 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17V16H9V14H11V13H13V14H15V16H13V17H11M12,7A2,2 0 0,0 10,9A2,2 0 0,0 12,11A2,2 0 0,0 14,9A2,2 0 0,0 12,7Z"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Consulting</h3>
+          <p class="service-description">
+            Expert guidance to align your digital strategy with business objectives.
+          </p>
+          <div class="service-features">
+            <ul>
+              <li>Digital Strategy</li>
+              <li>Technology Audit</li>
+              <li>Competitive Analysis</li>
+              <li>Growth Planning</li>
+            </ul>
+          </div>
+          <a href="#" class="service-link">Learn More</a>
+        </div>
+      </div>
+      
+      <div class="section-footer" data-aos="fade-up">
+        <a href="#contact" class="btn btn-primary btn-lg">Get Custom Proposal</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="stat-number" data-count="150">0</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="stat-number" data-count="300">0</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="stat-number" data-count="15">0</div>
+          <div class="stat-label">Industry Awards</div>
+        </div>
+        
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="stat-number" data-count="98">0</div>
+          <div class="stat-label">Client Retention</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="work" class="portfolio-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Our Portfolio</h2>
+        <p class="section-subtitle">Showcase of premium digital experiences</p>
+      </div>
+      
+      <div class="portfolio-filter" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="marketing">Marketing</button>
+      </div>
+      
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <div class="portfolio-item" data-category="web" data-aos="fade-up">
+          <div class="portfolio-img">
+            <img src="assets/project-1.jpg" alt="Project 1" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Luxury Resort Website</h3>
+                <p class="portfolio-desc">Premium booking experience</p>
+                <a href="#" class="portfolio-link">View Case Study</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="portfolio-item" data-category="branding" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-img">
+            <img src="assets/project-2.jpg" alt="Project 2" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Fashion Brand Identity</h3>
+                <p class="portfolio-desc">Complete visual rebrand</p>
+                <a href="#" class="portfolio-link">View Case Study</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="portfolio-item" data-category="marketing" data-aos="fade-up" data-aos-delay="200">
+          <div class="portfolio-img">
+            <img src="assets/project-3.jpg" alt="Project 3" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Tech Startup Campaign</h3>
+                <p class="portfolio-desc">Multi-channel marketing</p>
+                <a href="#" class="portfolio-link">View Case Study</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 4 -->
+        <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="300">
+          <div class="portfolio-img">
+            <img src="assets/project-4.jpg" alt="Project 4" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">E-Commerce Platform</h3>
+                <p class="portfolio-desc">Custom shopping experience</p>
+                <a href="#" class="portfolio-link">View Case Study</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 5 -->
+        <div class="portfolio-item" data-category="branding" data-aos="fade-up" data-aos-delay="400">
+          <div class="portfolio-img">
+            <img src="assets/project-5.jpg" alt="Project 5" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Beverage Packaging</h3>
+                <p class="portfolio-desc">Premium product design</p>
+                <a href="#" class="portfolio-link">View Case Study</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 6 -->
+        <div class="portfolio-item" data-category="marketing" data-aos="fade-up" data-aos-delay="500">
+          <div class="portfolio-img">
+            <img src="assets/project-6.jpg" alt="Project 6" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Social Media Strategy</h3>
+                <p class="portfolio-desc">Influencer collaboration</p>
+                <a href="#" class="portfolio-link">View Case Study</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="section-footer" data-aos="fade-up">
+        <a href="#contact" class="btn btn-primary btn-lg">Start Your Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Our Process</h2>
+        <p class="section-subtitle">Methodology that delivers exceptional results</p>
+      </div>
+      
+      <div class="process-timeline">
+        <div class="process-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="process-number">01</div>
+          <div class="process-content">
+            <h3 class="process-title">Discovery</h3>
+            <p class="process-desc">
+              We dive deep to understand your business, goals, and challenges.
+            </p>
+          </div>
+        </div>
+        
+        <div class="process-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="process-number">02</div>
+          <div class="process-content">
+            <h3 class="process-title">Strategy</h3>
+            <p class="process-desc">
+              We craft a tailored approach to achieve your objectives.
+            </p>
+          </div>
+        </div>
+        
+        <div class="process-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="process-number">03</div>
+          <div class="process-content">
+            <h3 class="process-title">Execution</h3>
+            <p class="process-desc">
+              Our experts bring the strategy to life with precision.
+            </p>
+          </div>
+        </div>
+        
+        <div class="process-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="process-number">04</div>
+          <div class="process-content">
+            <h3 class="process-title">Optimization</h3>
+            <p class="process-desc">
+              We refine and enhance to maximize performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Client Testimonials</h2>
+        <p class="section-subtitle">What our clients say about our work</p>
+      </div>
+      
+      <div class="testimonials-slider">
+        <div class="slider-track">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-slide" data-aos="fade-up">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                <svg viewBox="0 0 24 24">
+                  <path d="M14,17H17L19,13V7H13V13H16M6,17H9L11,13V7H5V13H8L6,17Z"/>
+                </svg>
+              </div>
+              <p class="testimonial-text">
+                Nexus Dynamics transformed our digital presence completely. Their strategic approach and attention to detail resulted in a 300% increase in our online conversions.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="assets/client-1.jpg" alt="Client" loading="lazy">
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Sarah Johnson</h4>
+                  <p class="author-title">CEO, Luxe Hotels</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 2 -->
+          <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                <svg viewBox="0 0 24 24">
+                  <path d="M14,17H17L19,13V7H13V13H16M6,17H9L11,13V7H5V13H8L6,17Z"/>
+                </svg>
+              </div>
+              <p class="testimonial-text">
+                Working with Nexus was a game-changer for our brand. Their creative vision and technical expertise delivered a website that perfectly represents our premium positioning.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="assets/client-2.jpg" alt="Client" loading="lazy">
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Michael Chen</h4>
+                  <p class="author-title">Marketing Director, Eleganza</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 3 -->
+          <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                <svg viewBox="0 0 24 24">
+                  <path d="M14,17H17L19,13V7H13V13H16M6,17H9L11,13V7H5V13H8L6,17Z"/>
+                </svg>
+              </div>
+              <p class="testimonial-text">
+                The team at Nexus Dynamics exceeded all our expectations. Their digital marketing strategy generated a 5x ROI in just three months. Truly exceptional results.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="assets/client-3.jpg" alt="Client" loading="lazy">
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">David Rodriguez</h4>
+                  <p class="author-title">Founder, TechNova</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 4 -->
+          <div class="testimonial-slide" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                <svg viewBox="0 0 24 24">
+                  <path d="M14,17H17L19,13V7H13V13H16M6,17H9L11,13V7H5V13H8L6,17Z"/>
+                </svg>
+              </div>
+              <p class="testimonial-text">
+                Nexus delivered a complete brand identity that perfectly captures our essence. Their strategic thinking and creative execution were outstanding at every stage.
+              </p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="assets/client-4.jpg" alt="Client" loading="lazy">
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Emily Wilson</h4>
+                  <p class="author-title">Creative Director, Belle Cosmetics</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slider-controls">
+          <button class="slider-prev" aria-label="Previous testimonial">
+            <svg viewBox="0 0 24 24">
+              <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"/>
+            </svg>
+          </button>
+          <div class="slider-dots"></div>
+          <button class="slider-next" aria-label="Next testimonial">
+            <svg viewBox="0 0 24 24">
+              <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="about" class="team-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Meet Our Team</h2>
+        <p class="section-subtitle">The creative minds behind Nexus Dynamics</p>
+      </div>
+      
+      <div class="team-grid">
+        <!-- Team Member 1 -->
+        <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+          <div class="member-img">
+            <img src="assets/team-1.jpg" alt="Team Member" loading="lazy">
+            <div class="member-social">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3 class="member-name">Alexandra Carter</h3>
+            <p class="member-role">Creative Director</p>
+          </div>
+        </div>
+        
+        <!-- Team Member 2 -->
+        <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member-img">
+            <img src="assets/team-2.jpg" alt="Team Member" loading="lazy">
+            <div class="member-social">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3 class="member-name">James Wilson</h3>
+            <p class="member-role">Lead Developer</p>
+          </div>
+        </div>
+        
+        <!-- Team Member 3 -->
+        <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member-img">
+            <img src="assets/team-3.jpg" alt="Team Member" loading="lazy">
+            <div class="member-social">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3 class="member-name">Sophia Martinez</h3>
+            <p class="member-role">UX Designer</p>
+          </div>
+        </div>
+        
+        <!-- Team Member 4 -->
+        <div class="team-member" data-aos="fade-up" data-aos-delay="400">
+          <div class="member-img">
+            <img src="assets/team-4.jpg" alt="Team Member" loading="lazy">
+            <div class="member-social">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3 class="member-name">Daniel Kim</h3>
+            <p class="member-role">Marketing Strategist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <h2 class="cta-title">Ready to Elevate Your Digital Presence?</h2>
+        <p class="cta-text">
+          Let's discuss how we can create something extraordinary together.
+        </p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+          <a href="tel:+1234567890" class="btn btn-outline btn-lg">Call Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="contact-text">
+            Have a project in mind or want to learn more about our services? 
+            Reach out to us and we'll get back to you within 24 hours.
+          </p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M22,16.92V19A2,2 0 0,1 20,21H4A2,2 0 0,1 2,19V16.92C2,16.92 5.31,15.75 6,15.5C7.53,15.07 9.24,14.5 12,14.5C14.76,14.5 16.47,15.07 18,15.5C18.69,15.75 22,16.92 22,16.92M6,10A1,1 0 0,1 7,9C8.66,9 10.12,8.5 12,8.5C13.88,8.5 15.34,9 17,9A1,1 0 0,1 18,10A1,1 0 0,1 17,11C15.34,11 13.88,11.5 12,11.5C10.12,11.5 8.66,11 7,11A1,1 0 0,1 6,10M20,5H4A2,2 0 0,0 2,7V15A2,2 0 0,0 4,17H20A2,2 0 0,0 22,15V7A2,2 0 0,0 20,5M20,9C20,10.38 16.42,11.5 12,11.5C7.58,11.5 4,10.38 4,9V7H20V9Z"/>
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <h3>Email Us</h3>
+                <a href="mailto:hello@nexusdynamics.com">hello@nexusdynamics.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"/>
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <h3>Call Us</h3>
+                <a href="tel:+1234567890">+1 (234) 567-890</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"/>
+                </svg>
+              </div>
+              <div class="contact-detail">
+                <h3>Visit Us</h3>
+                <p>123 Premium Avenue, Suite 500<br>New York, NY 10001</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-social">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+              <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Your Name</label>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" name="email" required>
+              <label for="email">Email Address</label>
+            </div>
+            
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone">
+              <label for="phone">Phone Number (Optional)</label>
+            </div>
+            
+            <div class="form-group">
+              <select id="service" name="service" required>
+                <option value="" disabled selected></option>
+                <option value="web">Web Development</option>
+                <option value="branding">Brand Identity</option>
+                <option value="marketing">Digital Marketing</option>
+                <option value="design">UI/UX Design</option>
+                <option value="video">Video Production</option>
+                <option value="consulting">Consulting</option>
+              </select>
+              <label for="service">Service Interested In</label>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-lg">
+              <span>Send Message</span>
+              <svg viewBox="0 0 24 24">
+                <path d="M2,21L23,12L2,3V10L17,12L2,14V21Z"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="footer-logo">
+            <a href="#home">
+              <span>Nexus</span>
+              <span class="logo-dot"></span>
+              <span>Dynamics</span>
+            </a>
+          </div>
+          <p class="footer-about-text">
+            Premium digital solutions for visionary brands. We create exceptional experiences that drive results.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col footer-services">
+          <h3 class="footer-title">Services</h3>
+          <ul class="footer-links">
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Brand Identity</a></li>
+            <li><a href="#">Digital Marketing</a></li>
+            <li><a href="#">UI/UX Design</a></li>
+            <li><a href="#">Video Production</a></li>
+            <li><a href="#">Consulting</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col footer-links">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col footer-newsletter">
+          <h3 class="footer-title">Newsletter</h3>
+          <p>Subscribe to our newsletter for the latest updates and insights.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit">
+              <svg viewBox="0 0 24 24">
+                <path d="M2,21L23,12L2,3V10L17,12L2,14V21Z"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          &copy; <span id="currentYear"></span> Nexus Dynamics. All rights reserved.
+        </div>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24">
+      <path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z"/>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
